@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Facebook</title>
+  <style>
+    body {
+      background-color: #f0f2f5;
+    }
+    #logo{
+      width:340px;
+      position: absolute;
+      top:190px;
+      left:260px;
+    }
+    #text{
+      font-family: "Helvetica";
+      font-size: 31px;
+      position: absolute;
+      top:270px;
+      left:290px;
+
+    }
+    .email{
+      width:380px;
+      height:30px;
+      border-radius:10px 10px 10px 10px;
+      background:white;
+      padding:10px;
+      font-size:18px;
+      margin:10px;
+      border-width: 1px;
+      border-style:solid;
+      border-color: #bbbebf;
+    }
+    #form{
+      position: absolute;
+      background-color: white;
+      border-radius:10px 10px 10px 10px;
+      top: 20%;
+      left: 55%;
+      height: 380px;
+      width: 420px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+      padding: 15px;
+      text-align: center;
+
+    }
+    #create{
+      background-color: #42b72a;
+      border: none;
+      border-radius: 6px;
+      font-size: 17px;
+      line-height: 48px;
+      padding: 0 16px;
+      color:white;
+      font-weight: bold;
+      position: relative;
+      text-align: center;
+      margin-top:20px;
+      width:200px;
+    }
+    #btn{
+      background-color: #1877f2;
+      border-radius:10px 10px 10px 10px;
+      border: none;
+      border-radius: 6px;
+      font-size: 20px;
+      line-height: 48px;
+      color: white;
+      font-weight: bold;
+      width: 400px;
+      margin-bottom: 17px;
+      margin-top: 10px;
+    }
+    #link{
+      font-weight: 600;
+    }
+    #forgot{
+      margin-top: 5px;
+      font-size: 17px;
+      line-height: 19px;
+      color:#1877f2;
+    }
+    #line{
+      margin-top:15px;
+    }
+    #thelasttext {
+      font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+      font-size: 15px;
+      top:55%;
+      margin-top:70px;
+    }
+  </style>
+
+</head>
+
+
+<body>
+<div>
+  <div>
+    <img id="logo" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook">
+  </div>
+  <div id="text_under">
+    <p id="text">
+      Facebook помогает вам всегда<br> оставаться на связи и общаться со<br> своими знакомыми.<br>
+    </p>
+  </div>
+</div>
+
+<div id="form">
+  <div>
+    <form>
+      <input class="email" type="text" placeholder="  Электронный адрес или номер телефона">
+    </form>
+  </div>
+  <div>
+    <form>
+      <input class="email"  type="password" placeholder="  Пароль">
+    </form>
+  </div>
+  <div>
+    <button id="btn">Вход</button>
+  </div>
+
+  <div>
+    <a id="forgot" href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0">
+      Забыли пароль?
+    </a>
+  </div>
+  <hr id="line">
+    <button id="create">Создать аккаунт</button>
+    <div>
+    </div>
+      <p id="thelasttext">
+        <a id="link" href="https://www.facebook.com/pages/create/?ref_type=registration_form">Создать страницу</a> знаменитости, музыкальной группы или компании
+      </p>
+  </div>
+</body>
+</html>
